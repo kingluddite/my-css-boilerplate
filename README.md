@@ -14,7 +14,8 @@
 
 ## Install instructions
 
-- Add this function to your dotfiles and call it with `$ css-boilerplate` to install all the boilerplate code
+- (if you have dotfiles) Add this function to your dotfiles and call it with `$ css-boilerplate` to install all the boilerplate code
+- **note** Don't forget to source the file holding this new function or it won't work (example: `$ source functions`)
 
 ```
 css-boilerplate(){
