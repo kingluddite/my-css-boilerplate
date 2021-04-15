@@ -1,21 +1,31 @@
 # CSS Boilerplate
 
+## Purpose
+
+- I just want a quick way to get setup with tools and standards I use for all sites
+
 ## Requirements
 
 - node (The `npx` stands for Node Package Execute and it comes with the `npm`, when you installed npm above 5.2.0 version then automatically npx will installed)
 
-## What this has
+## What this repo has
 
 - box-sizing
 - responsive images
 - normalize.css
 - live-server
 - stylelint
+- eslint & prettier ([thanks Wes!](https://github.com/wesbos/eslint-config-wesbos))
 
 ## Install instructions
 
-- (if you have dotfiles) Add this function to your dotfiles and call it with `$ css-boilerplate` to install all the boilerplate code
-- **note** Don't forget to source the file holding this new function or it won't work (example: `$ source functions`)
+- I like to jump into a folder and add my magic really quick
+- I use a function in my dotfiles to do this quickly
+- (If you have dotfiles) Add this function to your dotfiles and call it with:
+
+`$ css-boilerplate`
+
+- **note** After adding this function to your dotfiles don't forget to source the file holding this new function or it won't work (example: `$ source functions`)
 
 ```
 css-boilerplate(){
