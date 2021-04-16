@@ -1,3 +1,14 @@
+/* add css custom properties */
+:root {
+  --mainFont: 'Krub', sans-serif;
+
+  /* theme */
+  --white: #fff;
+  --primary: #ffc107;
+  --secondary: #0097a7;
+  --gray: #757575;
+}
+
 html {
   box-sizing: border-box;
 }
