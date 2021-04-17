@@ -1,12 +1,12 @@
 /* add css custom properties */
 :root {
-  --mainFont: 'Krub', sans-serif;
+  --main-font: 'Krub', sans-serif;
 
   /* theme */
-  --white: #fff;
-  --primary: #ffc107;
-  --secondary: #0097a7;
-  --gray: #757575;
+  --white-color: #fff;
+  --primary-color: #ffc107;
+  --secondary-color: #0097a7;
+  --gray-color: #757575;
 }
 
 html {
