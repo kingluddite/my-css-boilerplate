@@ -1,4 +1,46 @@
 {
   "extends": "stylelint-config-recess-order",
-  "rules": {}
+  "rules": {
+    "block-no-empty": true,
+    "comment-empty-line-before": [
+      "always",
+      {
+        "ignore": ["stylelint-commands", "after-comment"]
+      }
+    ],
+    "max-empty-lines": 2,
+    "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh", "vw"],
+    "color-hex-case": [
+      "lower",
+      {
+        "message": "Lowercase letters are easier to distinguish from numbers"
+      }
+    ],
+    "no-duplicate-selectors": true,
+    "color-hex-length": "long",
+    "color-named": "never",
+    "selector-combinator-space-after": "always",
+    "indentation": 2,
+    "string-quotes": "single",
+    "selector-attribute-quotes": "always",
+    "selector-attribute-operator-space-before": "always",
+    "selector-attribute-operator-space-after": "always",
+    "selector-attribute-brackets-space-inside": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "declaration-no-important": true,
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "property-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "number-leading-zero": "always",
+    "function-url-quotes": "always",
+    "font-family-name-quotes": "always-where-recommended",
+    "comment-whitespace-inside": "always",
+    "at-rule-no-vendor-prefix": true,
+    "rule-empty-line-before": ["after-rule"],
+    "selector-pseudo-element-colon-notation": "single",
+    "selector-pseudo-class-parentheses-space-inside": "always",
+    "selector-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true
+  }
 }
