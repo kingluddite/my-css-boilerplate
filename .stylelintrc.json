@@ -38,8 +38,6 @@
     "comment-whitespace-inside": "always",
     "at-rule-no-vendor-prefix": true,
     "rule-empty-line-before": ["after-rule"],
-    "selector-pseudo-element-colon-notation": "single",
-    "selector-pseudo-class-parentheses-space-inside": "always",
     "selector-no-vendor-prefix": true,
     "media-feature-name-no-vendor-prefix": true
   }
