@@ -1,0 +1,4 @@
+# What files/folders do you want
+# stylelint rules not to apply?
+# This would be used if you were processing SASS code
+# css/**/*.css
