@@ -51,7 +51,10 @@ h3 {
   font-weight: 700;
 }
 
+/* Our app will be centered */
+
 .container {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
