@@ -9,7 +9,7 @@
       }
     ],
     "max-empty-lines": 2,
-    "unit-allowed-list": ["em", "rem", "%", "s", "px", "vh", "vw"],
+    "unit-allowed-list": ["em", "rem", "%", "fr", "s", "px", "vh", "vw"],
     "color-hex-case": [
       "lower",
       {
