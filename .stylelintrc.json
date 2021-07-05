@@ -1,11 +1,14 @@
 {
   "extends": "stylelint-config-recess-order",
+  "plugins": ["stylelint-prettier"],
   "rules": {
+    "prettier/prettier": [true, { "singleQuote": true }],
     "block-no-empty": true,
     "comment-empty-line-before": [
       "always",
       {
-        "ignore": ["stylelint-commands", "after-comment"]
+        "ignore": ["stylelint-commands", "after-comment"],
+        "except": ["first-nested"]
       }
     ],
     "max-empty-lines": 2,
