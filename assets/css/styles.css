@@ -15,6 +15,13 @@
   --desktop-breakpoint: 1000px;
 }
 
+/* The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer. */
+/* @font-face { */
+/*   font-family: "Open Sans"; */
+/*   src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"), */
+/*        url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+/* } */
+
 html {
   /* how should we incorporate a base font system */
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, */
